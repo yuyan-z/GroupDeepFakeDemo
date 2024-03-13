@@ -53,6 +53,13 @@
             android:layout_height="0dp"
             android:layout_weight="1">
 
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="178dp"
+                android:text="Si vous avez reçu un appel, veuillez cliquer sur le bouton tout à droite pour vérifier la voix"
+                android:textSize="20sp"
+                android:layout_gravity="bottom" />
         </FrameLayout>
 
         <LinearLayout
@@ -104,9 +111,16 @@
                     android:layout_height="match_parent"
                     android:layout_marginVertical="8dp"
                     android:layout_weight="1"
-                    android:onClick="changeTab"
                     app:srcCompat="@drawable/my1" />
             </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 
